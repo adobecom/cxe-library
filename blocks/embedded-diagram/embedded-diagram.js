@@ -17,6 +17,8 @@ export default function init(el) {
   console.log(iframe_idEl);
   const { textContent: embed_id } = embed_idEl;
   const { textContent: iframe_id } = iframe_idEl;
+  embed_idEl.parentElement.remove();
+  iframe_idEl.parentElement.remove();
   render(
     html`<div
       style="width: 640px; height: 480px; margin: 10px; position: relative;"
