@@ -21,12 +21,12 @@ export default function init(el) {
   iframe_idEl.parentElement.remove();
   render(
     html`<div
-      style="width: 640px; height: 480px; margin: 10px; position: relative;"
+      style="width: 800px; height: 600px; margin: auto; position: relative;"
     >
       <iframe
         allowfullscreen
         frameborder="1"
-        style="width:640px; height:480px"
+        style="width:800px; height:600px"
         src="https://lucid.app/documents/embedded/${embed_id}"
         id="${iframe_id}"
       ></iframe>
