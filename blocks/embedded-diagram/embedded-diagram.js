@@ -20,17 +20,18 @@ export default function init(el) {
   embed_idEl.parentElement.remove();
   iframe_idEl.parentElement.remove();
   render(
-    html`<div
-      style="width: 800px; height: 600px; margin: auto; position: relative;"
-    >
-      <iframe
-        allowfullscreen
-        frameborder="1"
-        style="width:800px; height:600px"
-        src="https://lucid.app/documents/embedded/${embed_id}"
-        id="${iframe_id}"
-      ></iframe>
-    </div>`,
+    html`<div>FOR THE DEMO!</div>
+      <div
+        style="width: 800px; height: 600px; margin: auto; position: relative;"
+      >
+        <iframe
+          allowfullscreen
+          frameborder="1"
+          style="width:800px; height:600px"
+          src="https://lucid.app/documents/embedded/${embed_id}"
+          id="${iframe_id}"
+        ></iframe>
+      </div>`,
     el
   );
 }
